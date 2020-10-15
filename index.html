@@ -1,47 +1,108 @@
 <!doctype html>
-<title>Example</title>
-<style>
-  * {
-    box-sizing: border-box; 
-  }
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: row;
-    margin: 0;
-  }
-  .col-1 {
-    background: #D7E8D4;
-    flex: 1;
-  }
-  .col-2 {
-    display: flex;
-    flex-direction: column;
-    flex: 5;
-  }
-  .content {
-    display: flex;
-    flex-direction: row;
-  }
-  .content > article {
-    flex: 4;
-    min-height: 60vh;
-  }
-  header, footer {
-    background: yellowgreen;
-    height: 20vh;
-  }
-  header, footer, article, nav {
-    padding: 1em;
-  }
-</style>
-<body>
-  <nav class="col-1">Nav</nav>
-  <div class="col-2">
-  	<header>Header</header>
-    <main class="content">
-    <article>Article</article>
-    </main>
-  	<footer>Footer</footer>
-  </div>
-</body>
+<html lang="en">
+	<head>
+
+		<!-- Mandatory meta tags. Must come first in the head -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Leonard Campanello, PhD</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	
+	<body>
+		
+		<!-- Insert nav bar here -->
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-nav">
+					<a type="button" class="btn" href="#AboutMe">About Me</a>
+					<a type="button" class="btn" href="#Projects">Projects</a>
+					<a type="button" class="btn" href="#Extracirriculars">Extracirriculars</a>
+					<a type="button" class="btn" href="#">Resume</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+		</div>
+		
+		<div class="container">
+		
+			<div class="row">
+				<div class="col-md-4">
+					<img src="pic.png">
+					<h3>Leonard Campanello, PhD</h3>
+					<h5>Postdoctoral Research Associate</h5>
+					<h5>Institute for Physical Science and Technology</h5>
+					<h5>College Park, MD 20740</h5>
+				</div>
+				
+				<div class="col-md-8">
+				
+					<h3 id="AboutMe">About me</h3>
+					<div class="row">
+					
+						<div class="col-md-4">
+							IPST Logo
+						</div>
+						
+						<div class="col-md-8">
+							IPST Description
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+							georgian
+						</div>
+						
+					</div>
+					
+					
+					<h3 id="Projects">Projects</h3>
+					<div class="row">
+						<div class="col-md-4">
+							IPST Logo
+						</div>
+						<div class="col-md-8">
+							IPST Description
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+							georgian
+						</div>
+					</div>
+
+					
+					<h3 id="Extracirriculars">Extracirriculars</h3>
+					<div class="row">
+						<div class="col-md-4">
+							GIFs
+						</div>
+						<div class="col-md-8">
+							GIFs
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+							georgian
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		
+		</div>
+		
+		<!-- Insert footer bar here -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+	</body>
+	  
+</html>
