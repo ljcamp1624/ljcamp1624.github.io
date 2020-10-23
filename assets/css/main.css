@@ -98,6 +98,15 @@ input, select, textarea {
         vertical-align: middle;
     }
 
+    .mapBG {
+        
+    }
+
+    .mapBG img {
+        background-image: url("images/map.jpg");
+        opacity: 50%;
+    }
+
 /* Basic */
 
 	html {
