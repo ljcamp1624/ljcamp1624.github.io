@@ -25,15 +25,43 @@
                     </h2>
                     <h3>
                         Institute for Physical Science and Technology
-                    </h3>
-                    <h3>
+                        <br>
                         College Park, MD
                     </h3>
+                    <div class="col-6 col-12-small">
+                        <ul class="actions stacked">
+                            <li><a href="#about" class="button small">About</a></li>
+                            <li><a href="#projects" class="button small">Projects</a></li>
+                            <li><a href="#skills" class="button small">Skills</a></li>
+                            <li><a href="#blog" class="button small">Blog</a></li>
+                            <li><a href="#extracirriculars" class="button small">Extracirriculars</a></li>
+                        </ul>
+                    </div>
 				</div>
 			</header>
 
 		<!-- Main -->
 			<div id="main">
+                
+                <!-- Zero -->
+					<section id="contact">
+                        
+                        <header class="major">
+							<h2>Contact</h2>
+						</header>
+                        
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>E-mail</h2>
+                                <h4>leonard.campanello (at) gmail (dot) com</h4>
+                            </div>
+                            <div class="col-6">
+                                <h2>Github</h2>
+                                <h4>github.com/ljcamp1624</h4>
+                            </div>
+                       </div>
+                        
+                </section>
 
 				<!-- One -->
 					<section id="about">
@@ -45,6 +73,8 @@
                         <h2>Bio</h2>
                         <p>
                             I am a recent PhD graduate in Physics from the University of Maryland College Park, and am currently working remotely as a postdoc at the Institute for Physical Science and Technology. I am the analytics expert on interdisciplinary projects at the intersection of physics, biology, applied math, and computer science. I integrate statistical models, physics-based simulations, and data analytics to help answer fundamental questions in biology and medicine.
+                            <br>
+                            <br>
                         </p>
                         
                         <h2>Experience</h2>
@@ -156,26 +186,84 @@
 					</section>
 
 				<!-- Two -->
-					<section id="two">
+					<section id="projects">
                         
 						<header class="major">
-							<h2>Recent Work</h2>
+							<h2>Projects</h2>
 						</header>
 						
-                        <div class="row">
-                            
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/oftracking.gif" class="image fit thumb"><img src="images/oftracking.gif"/></a>
-								<h3>Quantifying and Modeling Flow-Field Dynamics.</h3>
-                                <p>Featured in Lee*, Campanello*, at al. MBoC 2020.
-                                    <br>
-                                    (<a href="https://www.molbiolcell.org/doi/full/10.1091/mbc.E19-11-0614">manuscript</a>) 
-                                    (<a href="https://www.biorxiv.org/content/10.1101/753681v1">preprint</a>) 
-                                    (<a href="https://github.com/ljcamp1624/flowclustertracking">code</a>) 
-                                </p>
+                        
+                        
+                        <!-- flow cluster tracking -->
+							<article class="row work-item">
+                                <div class="col-3">
+                                    <div class="imgIcon">
+                                    <a href="" class="image fit thumb">
+                                        <img src="images/oftracking.gif"/>
+                                    </a>
+                                    <a href="" class="image fit thumb">
+                                        <img src="images/ofclustering.gif"/>
+                                    </a>
+                                        <span class="imgIconHelper"></span>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <h3>Modeling Flow-Field Dynamics in Biological Systems</h3>
+                                    <p>
+                                        <br>
+                                        Optical flow measurements enable a wide variety of technology, from facial recognition to self-driving cars. In this project, I designed an optical-flow-based pipeline to quantify flow-field dynamics in biological systems. 
+                                        <br><br>
+                                        By applying my algorithm to microscope images, I obtained measurements for things like speed and directionality in a variety of cell types. I then built a model of these flow fields with a bimodal mixed von-Mises distribution to parameterize the effect of external forces on the cells. 
+                                        <br><br>
+                                        This algorithm was introduced in Lee*, Campanello*, at al. MBoC 2020 (<a href="https://www.biorxiv.org/content/10.1101/753681v1">preprint</a> and <a href="https://www.molbiolcell.org/doi/full/10.1091/mbc.E19-11-0614">manuscript</a>) and will be featured in several upcoming publications.
+                                        <br><br>
+                                        The original MATLAB code can be found on github: <a href="https://github.com/ljcamp1624/FlowClusterTracking">github.com/ljcamp1624/FlowClusterTracking</a>
+                                    </p>
+                                </div>
+                                <div class="col-12">
+                                    <p>
+                                        Key concepts: computer vision, optimization, modeling, maximum-likelihood estimation, data visualization, time-series analysis.
+                                    </p>
+                                </div>
+							</article>
+                        
+                        
+                        
+                        
+                        
+                        <!-- excitability -->
+                            <article class="row work-item">
+                                <div class="col-6">
+                                    <h3>Applying Excitable-Systems Models to Biological Signaling Networks</h3>
+                                    <p>
+                                        <br>
+                                        Excitability is the phenomena whereby a system can rapidly change states, e.g., the switching between a flat and oscillatitory state in the red line on the movie to the right.
+                                        <br><br>
+                                        In my doctoral dissertation, I explored the role of excitability in biological systems, and identified key mechanisms that enable excitability during physiological processes such as immune response and wound healing.
+                                        <br><br>
+                                        One excitable-systems model that demonstrates this concept is the FitzHugh-Nagumo model, an implementation of which can be found on my github: <a href="https://github.com/ljcamp1624/FitzhHughNagumoModel">github.com/ljcamp1624/FitzhHughNagumoModel</a>)
+                                        <br><br>
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="imgIcon">
+                                    <a href="images/fhnosc.gif" class="image fit thumb">
+                                        <img src="images/fhnosc.gif"/>
+                                    </a>
+                                        <a href="images/fhndig.gif" class="image fit thumb">
+                                        <img src="images/fhndig.gif"/>
+                                    </a>
+                                        <span class="imgIconHelper"></span>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <p style="text-align: center;">
+                                        Key concepts: nonlinear dynamics, nonlinear systems, coupled system, mathematical modeling, time-series analysis.
+                                    </p>
+                                </div>
 							</article>
                             
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-8 col-12-xsmall work-item">
 								<a href="images/bcl10sim.gif" class="image fit thumb"><img src="images/bcl10sim.gif" alt="" /></a>
 								<h3>Modeling Signaling Processes Mediated by Polymerization Dynamics.</h3>
                                 <p>Featured in Campanello, Traver, at al. BioRxiv 2020. (<a href="https://www.biorxiv.org/content/10.1101/2020.05.28.120907v1">preprint</a>)</p>
@@ -187,11 +275,7 @@
                                 <p>Manuscript in preparation.</p>
 							</article>
                             
-                            <article class="col-6 col-12-xsmall work-item">
-								<a href="images/fhndig.gif" class="image fit thumb"><img src="images/fhndig.gif" alt="" /><img src="images/fhnosc.gif" alt="" /></a>
-								<h3>Applying Excitable-Systems Models to Biological Signaling Networks.</h3>
-                                <p>Biological excitability enables a wide variety of physiological processes in the body, from wound healing to immune response.</p>
-							</article>
+                            
                             
                             <article class="col-6 col-12-xsmall work-item">
 								<a href="" class="image fit thumb">
@@ -207,12 +291,11 @@
 				                <a href="#" class="button">Full Portfolio on Github</a>
                             </div>
                             -->
-						</div>
 						
 					</section>
 
 				<!-- Three -->
-					<section id="three">
+					<section id="extracirriculars">
                         
 						<header class="major">
 							<h2>Skills</h2>
@@ -246,19 +329,19 @@
 
 				<!-- Extras -->
 				<!--
-					<section id="four">
+					<section id="blog">
 						<h2>Elements</h2>
 
 						<section>
 							<pre><code>i = 0;
 
-                                while (!deck.isInOrder()) {
-                                print 'Iteration ' + i;
-                                deck.shuffle();
-                                i++;
-                                }
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
 
-                                print 'It took ' + i + ' iterations to sort the deck.';
+print 'It took ' + i + ' iterations to sort the deck.';
                             </code></pre>
 						</section>
 
@@ -536,10 +619,10 @@
 						</section>
 
 					</section>
-				-->
+				
 
 			</div>
-        
+            -->
         <!-- Footer -->
 			<footer id="footer">
 				<div class="inner">

@@ -174,7 +174,7 @@ input, select, textarea {
 		color: #222222;
 		font-weight: 400;
 		line-height: normal;
-		margin: 2em 0 0.5em 0;
+		margin: 0em 0 0.5em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1828,7 +1828,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		font-size: 2em;
+        font-size: 2em;
 	}
 
 /* Form */
@@ -2075,7 +2075,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 0.35em;
+		border-radius: 0em;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2107,7 +2107,7 @@ input, select, textarea {
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
-				border-radius: 0.35em;
+				border-radius: 0;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
 				content: 'View';
@@ -2198,7 +2198,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -2317,7 +2317,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3em 0 0 0;
+				padding: 0.25em 0 0em 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -2481,13 +2481,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: transparent;
-		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		background-color: rgba(10, 10, 10, 0.65);
+		border-radius: 0.15em;
+		border: solid 3px #cccccc;
+		color: #cccccc !important;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
+		font-weight: 600;
 		height: 3.15em;
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
@@ -2502,8 +2502,10 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: rgb(250,250,250);
+			color: #000000 !important;
+            font-weight: 1200;
+            background-color: rgba(250, 250, 250, 1);
 		}
 
 		input[type="submit"]:active,
@@ -2666,17 +2668,18 @@ input, select, textarea {
 		#header h1 {
 			color: rgb(255, 255, 255, 1);
 			font-size: 1.8em;
+            margin: 0 0 0.5em 0;
 		}
 
         #header h2 {
 			color: rgb(255, 255, 255, 1);
 			font-size: 1.4em;
-            margin: 0.5em auto auto auto;
+            margin: 0;
 		}
         #header h3 {
 			color: rgb(255, 255, 255, 1);;
 			font-size: 1em;
-            margin: 0;
+            margin: 0 0 1em 0;
 		}
         #header h4 {
 			color: #ffffffaa;
