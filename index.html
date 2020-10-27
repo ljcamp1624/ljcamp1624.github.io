@@ -44,7 +44,7 @@
 			<div id="main">
                 
                 <!-- Zero -->
-					<section id="contact">
+					<section id="about">
                         
                         <header class="major">
 							<h2>Contact</h2>
@@ -64,7 +64,7 @@
                 </section>
 
 				<!-- One -->
-					<section id="about">
+					<section>
                         
 						<header class="major">
 							<h2>About</h2>
@@ -183,108 +183,159 @@
                             </div>
                         </div>
                         
+                        <h2>Awards</h2>
+                        <div class="alt">
+                            <div class="row gtr-50 gtr-uniform">
+                                <div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+                                <div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+                                <div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+                            </div>
+                        </div>
+                        
 					</section>
 
+                
+                
 				<!-- Two -->
 					<section id="projects">
                         
 						<header class="major">
 							<h2>Projects</h2>
 						</header>
-						
                         
                         
                         <!-- flow cluster tracking -->
-							<article class="row work-item">
-                                <div class="col-3">
-                                    <div class="imgIcon">
-                                    <a href="" class="image fit thumb">
+                        <article class="row">
+                            <div class="col-3">
+                                <div class="imgIcon work-item">
+                                    <a href="images/oftracking.gif" class="image fit thumb">
                                         <img src="images/oftracking.gif"/>
+                                        <h5>Optical-flow clusters</h5>
                                     </a>
-                                    <a href="" class="image fit thumb">
+                                    <a href="images/ofclustering.gif" class="image fit thumb">
                                         <img src="images/ofclustering.gif"/>
+                                        
+                                        <h5>Tracks of flow clusters</h5>
                                     </a>
-                                        <span class="imgIconHelper"></span>
-                                    </div>
                                 </div>
-                                <div class="col-9">
-                                    <h3>Modeling Flow-Field Dynamics in Biological Systems</h3>
-                                    <p>
-                                        <br>
-                                        Optical flow measurements enable a wide variety of technology, from facial recognition to self-driving cars. In this project, I designed an optical-flow-based pipeline to quantify flow-field dynamics in biological systems. 
-                                        <br><br>
-                                        By applying my algorithm to microscope images, I obtained measurements for things like speed and directionality in a variety of cell types. I then built a model of these flow fields with a bimodal mixed von-Mises distribution to parameterize the effect of external forces on the cells. 
-                                        <br><br>
-                                        This algorithm was introduced in Lee*, Campanello*, at al. MBoC 2020 (<a href="https://www.biorxiv.org/content/10.1101/753681v1">preprint</a> and <a href="https://www.molbiolcell.org/doi/full/10.1091/mbc.E19-11-0614">manuscript</a>) and will be featured in several upcoming publications.
-                                        <br><br>
-                                        The original MATLAB code can be found on github: <a href="https://github.com/ljcamp1624/FlowClusterTracking">github.com/ljcamp1624/FlowClusterTracking</a>
-                                    </p>
-                                </div>
-                                <div class="col-12">
-                                    <p>
-                                        Key concepts: computer vision, optimization, modeling, maximum-likelihood estimation, data visualization, time-series analysis.
-                                    </p>
-                                </div>
-							</article>
-                        
-                        
-                        
+                            </div>
+                            <div class="col-9">
+                                <h3>Modeling Flow-Field Dynamics in Biological Systems</h3>
+                                <p>
+                                    Optical flow measurements enable a wide variety of technology, from facial recognition to self-driving cars. In this project, I designed an optical-flow-based pipeline to quantify flow-field dynamics in biological systems. 
+                                </p>
+                                <p>
+                                    By applying my algorithm to microscope images, I obtained measurements for things like speed and directionality in a variety of cell types. I then built a model of these flow fields with a bimodal mixed von-Mises distribution to parameterize the effect of external forces on the cells. 
+                                </p>    
+                                <p>
+                                    This algorithm was introduced in Lee*, Campanello*, at al. MBoC 2020 (<a href="https://www.biorxiv.org/content/10.1101/753681v1">preprint</a> and <a href="https://www.molbiolcell.org/doi/full/10.1091/mbc.E19-11-0614">manuscript</a>) and will be featured in several upcoming publications. 
+                                </p>    
+                                <p>
+                                    The original MATLAB code for the MBoC manuscript can be found on github at <a href="https://github.com/LosertLab/FlowClusterTracking">github.com/LosertLab/FlowClusterTracking</a>, and the updated version at <a href="https://github.com/ljcamp1624/FlowClusterTracking">github.com/ljcamp1624/FlowClusterTracking</a>.
+                                </p>
+                                <p>
+                                    Key concepts: computer vision, optimization, modeling, maximum-likelihood estimation, data visualization, time-series analysis.
+                                </p>
+                            </div>
+                        </article>
                         
                         
                         <!-- excitability -->
-                            <article class="row work-item">
+                            <article class="row">
                                 <div class="col-6">
-                                    <h3>Applying Excitable-Systems Models to Biological Signaling Networks</h3>
+                                    <h3>
+                                        Applying Excitable-Systems Models to Biological Signaling Networks
+                                    </h3>
                                     <p>
-                                        <br>
                                         Excitability is the phenomena whereby a system can rapidly change states, e.g., the switching between a flat and oscillatitory state in the red line on the movie to the right.
-                                        <br><br>
-                                        In my doctoral dissertation, I explored the role of excitability in biological systems, and identified key mechanisms that enable excitability during physiological processes such as immune response and wound healing.
-                                        <br><br>
-                                        One excitable-systems model that demonstrates this concept is the FitzHugh-Nagumo model, an implementation of which can be found on my github: <a href="https://github.com/ljcamp1624/FitzhHughNagumoModel">github.com/ljcamp1624/FitzhHughNagumoModel</a>)
-                                        <br><br>
                                     </p>
-                                </div>
-                                <div class="col-6">
-                                    <div class="imgIcon">
-                                    <a href="images/fhnosc.gif" class="image fit thumb">
-                                        <img src="images/fhnosc.gif"/>
-                                    </a>
-                                        <a href="images/fhndig.gif" class="image fit thumb">
-                                        <img src="images/fhndig.gif"/>
-                                    </a>
-                                        <span class="imgIconHelper"></span>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <p style="text-align: center;">
+                                    <p>
+                                        In my doctoral dissertation, I explored the role of excitability in biological systems, and identified key mechanisms that enable excitability during physiological processes such as immune response and wound healing.
+                                    </p>
+                                    <p>
+                                        One excitable-systems model that demonstrates this concept is the FitzHugh-Nagumo model, an implementation of which can be found on my github: <a href="https://github.com/ljcamp1624/FitzhHughNagumoModel">github.com/ljcamp1624/FitzhHughNagumoModel</a>)
+                                    </p>
+                                    <p>
                                         Key concepts: nonlinear dynamics, nonlinear systems, coupled system, mathematical modeling, time-series analysis.
                                     </p>
                                 </div>
+                                <div class="col-6">
+                                    <div class="imgIcon work-item">
+                                        <a href="images/fhndig.gif" class="image fit thumb">
+                                            <img src="images/fhndig.gif"/>
+                                            <h5>Transition a dormant to an activated state</h5>
+                                        </a>
+                                        <a href="images/fhnosc.gif" class="image fit thumb">
+                                            <img src="images/fhnosc.gif"/>
+                                            <h5>Transition an activated to an oscillatory state</h5>
+                                        </a>
+                                    </div>
+                                </div>
 							</article>
-                            
-							<article class="col-8 col-12-xsmall work-item">
-								<a href="images/bcl10sim.gif" class="image fit thumb"><img src="images/bcl10sim.gif" alt="" /></a>
-								<h3>Modeling Signaling Processes Mediated by Polymerization Dynamics.</h3>
-                                <p>Featured in Campanello, Traver, at al. BioRxiv 2020. (<a href="https://www.biorxiv.org/content/10.1101/2020.05.28.120907v1">preprint</a>)</p>
+                        
+                        
+                            <!-- 3-D filament networks -->
+                            <article class="row">
+                                <div class="col-5">
+                                    <div class="imgIcon work-item">
+                                        <a href="images/bcl10structure.gif" class="image fit thumb">
+                                            <img src="images/bcl10structure.gif"/>
+                                            <h5>Transition a dormant to an activated state</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <h3>
+                                        Quantification of 3-D Filament Networks.
+                                    </h3>
+                                    <p>
+                                        Featured in Campanello, Traver, at al. BioRxiv 2020.
+                                    </p>
+                                </div>
 							</article>
-                            
-                            <article class="col-6 col-12-xsmall work-item">
-								<a href="images/bcl10structure.gif" class="image fit thumb"><img src="images/bcl10structure.gif" alt="" /></a>
-								<h3>Quantification of 3-D Filament Networks.</h3>
-                                <p>Manuscript in preparation.</p>
+                        
+                        
+                            <!-- bcl10 simulations -->
+                            <article class="row">
+                                <div class="col-6">
+                                    <h3>
+                                        Quantification of 3-D Filament Networks.
+                                    </h3>
+                                    <p>
+                                        Featured in Campanello, Traver, at al. BioRxiv 2020.
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="imgIcon work-item">
+                                        <a href="images/bcl10sim.gif" class="image fit thumb">
+                                            <img src="images/bcl10sim.gif"/>
+                                            <h5>Transition a dormant to an activated state</h5>
+                                        </a>
+                                    </div>
+                                </div>
 							</article>
-                            
-                            
-                            
-                            <article class="col-6 col-12-xsmall work-item">
-								<a href="" class="image fit thumb">
-                                    <img src="images/map.jpg" alt="" />
-                                    <img src="images/map.gif" alt="" />
-                                </a>
-								<h3>Modeling and Visualizing Crime in New Carrollton, MD</h3>
-                                <p>Project for the 2018 UMD Data Challenge.</p>
+                        
+                        
+                            <!-- new carrollton maps -->
+                            <article class="row">
+                                <div class="col-5">
+                                    <div class="imgIcon work-item">
+                                        <a href="images/map.gif" class="image fit thumb">
+                                            <img src="images/map.gif"/>
+                                            <h5>Transition a dormant to an activated state</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <h3>
+                                        Modeling and Visualizing Crime in New Carrollton, MD
+                                    </h3>
+                                    <p>
+                                        Project for the 2018 UMD Data Challenge.
+                                    </p>
+                                </div>
 							</article>
+                        
                             
                             <!--
                             <div class="col-4 off-4 actions">
@@ -328,7 +379,7 @@
 					
 
 				<!-- Extras -->
-				<!--
+				
 					<section id="blog">
 						<h2>Elements</h2>
 
