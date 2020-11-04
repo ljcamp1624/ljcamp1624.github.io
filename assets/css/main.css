@@ -2639,7 +2639,7 @@ input, select, textarea {
 		background-image: url("images/bg1.jpg"), url("../../images/bg1.jpg");
 		background-position: top center;
 		background-repeat: repeat-y;
-		background-size: auto,								150%;
+		background-size: auto,								175%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
